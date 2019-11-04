@@ -1,0 +1,2621 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>St. John the Baptist Parish Sheriff's Office</title>
+<link href="css/aamainstyle.css" rel="stylesheet" type="text/css"/>
+<link href="css/aabuttonz.css" rel="stylesheet" type="text/css"/>
+<link href="menus/109/style.css" rel="stylesheet" type="text/css"/>
+<script src="SpryAssets/SpryCollapsiblePanel.js" type="text/javascript"></script>
+<script language="JavaScript" type="text/javascript">
+function HidePart(d) { document.getElementById(d).style.display = "none";  }
+function ShowPart(d) { document.getElementById(d).style.display = "block"; }
+function CheckboxChecked(b,d)
+{
+   if(b) { ShowPart(d); }
+   else  { HidePart(d); }
+}
+</script>
+<style type="text/css">
+<!--
+.saleitems {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #F00;
+	padding-top: 1px;
+	padding-bottom: 10px;
+	font-size: 13px;
+	line-height: 1.7em;
+}
+-->
+</style>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"><div id="hed_logo"><a href="index.php"><img alt="St. John Parish Sheriff's Office" border="0" height="150" src="grafx/logo.jpg" width="750"/></a></div>
+<div id="hed_rht_box">
+</div></div>
+<div id="navbar"><div class="menu_109class_4">
+<ul>
+<li><a href="http://stjohnsheriff.org/index.php"><span>Home</span></a></li>
+<li class="has-sub"><a href="#"><span>About Us</span></a>
+<ul>
+<li><a href="general.php?id=449">Mission Statement</a></li>
+<li><a href="sheriff.php"><span>Meet the Sheriff</span></a></li>
+<li><a href="directory.php"><span>Division Directory</span></a></li>
+<li><a href="general.php?id=26">In Memoriam</a></li>
+<li><a href="general.php?id=21">Past Sheriffs</a></li>
+<li><a href="taxes.php">Tax Information</a></li>
+<li><a href="http://stjohnsheriff.org/sheriff_sale.php">Sheriff's Sales</a></li>
+<li><a href="general.php?id=20">Annual Reports</a></li>
+<li><a href="general.php?id=22">Online Forms</a></li>
+<li><a href="directory.php">Contact Us</a></li>
+</ul>
+</li>
+<li class="has-sub"><a href="#"><span>News &amp; Information</span></a>
+<ul>
+<li><a href="news.php">News &amp; Events</a></li>
+<li><a href="http://stjohnsheriff.com/dailyarrests.php">Daily Arrests</a></li>
+<li><a href="http://stjohnsheriff.org/sheriff_sale.php">Sheriff's Sales</a></li>
+<li><a href="http://stjohnsheriff.com/pressrelease.php">Press Releases</a></li>
+<li><a href="http://stjohnsheriff.com/calendar.php">Calendar</a></li>
+<li><a href="http://stjohnsheriff.com/general.php?id=20">Annual Reports</a></li>
+</ul>
+</li>
+<li class="has-sub"><a href="#">Citizen's Services</a>
+<ul>
+<li><a href="general.php?id=32">Victim's Notification</a></li>
+<li><a href="http://www.sheriffalerts.com/cap_main.php?office=54510">Sex Offender Search</a></li>
+<li><a href="general.php?id=22">Online Forms</a></li>
+<li><a href="general.php?id=18">Helpful Links</a></li>
+</ul>
+</li>
+<li class="has-sub"><a href="general.php?id=25">Community Programs</a>
+<ul>
+<li><a href="general.php?id=150">St John Parish Night Out Against Crime</a></li>
+<li><a href="http://stjohnsheriff.org/news_details.php?id=2046">St John Sheriff's Citizens Academy</a></li>
+<li><a href="http://stjohnsheriff.org/forms/rad-course-registration/">R.A.D. Female Self Defense</a></li>
+<li><a href="general.php?id=28">Hunter Safety Course</a></li>
+<li><a href="http://stjohnsheriff.com/general.php?id=1056">P.O.P.S.</a></li>
+<li><a href="dare.php">DARE</a></li>
+<li><a href="general.php?id=33">LA Sheriffs Scholarship</a></li>
+<li><a href="safetytips.php">Safety Tips</a></li>
+</ul>
+</li></ul>
+</div>
+</div>
+<div id="titl">
+<h1>Sheriff Sale</h1>
+</div>
+<div id="bodywrap">
+<div id="onecol">
+<div class="content">
+<!-- Content Starts Here-->
+<div class="datebox">
+<table border="0" width="100%">
+<tr>
+<td align="left"><form action="sheriff_sale_search.php" id="form1" method="post" name="form1">
+<label>
+<input id="ssearch" name="ssearch" placeholder="Search item# or name" size="17" type="text"/>
+</label>
+<label>
+<input id="button" name="button" type="submit" value="Search"/>
+</label>
+</form></td>
+<td align="right"><p> </p></td>
+<td nowrap="nowrap"><form action="sheriff_sale_bydate.php?ss_saledate=" id="form2" method="get" name="form2">
+<label>
+           View all items of a particular date:
+             <select id="datlist" name="datlist">
+<option value="">Select Date</option>
+<option value="2017-01-25">January 25, 2017</option>
+<option value="2017-02-01">February 1, 2017</option>
+<option value="2017-06-21">June 21, 2017</option>
+<option value="2017-08-02">August 2, 2017</option>
+<option value="2017-08-16">August 16, 2017</option>
+<option value="2017-08-23">August 23, 2017</option>
+<option value="2018-02-21">February 21, 2018</option>
+<option value="2018-02-28">February 28, 2018</option>
+<option value="2018-03-14">March 14, 2018</option>
+<option value="2018-06-06">June 6, 2018</option>
+<option value="2018-06-13">June 13, 2018</option>
+<option value="2018-06-20">June 20, 2018</option>
+<option value="2018-08-01">August 1, 2018</option>
+<option value="2018-08-29">August 29, 2018</option>
+<option value="2018-10-10">October 10, 2018</option>
+<option value="2018-12-05">December 5, 2018</option>
+<option value="2018-12-12">December 12, 2018</option>
+<option value="2019-01-09">January 9, 2019</option>
+<option value="2019-01-30">January 30, 2019</option>
+<option value="2019-02-06">February 6, 2019</option>
+<option value="2019-02-27">February 27, 2019</option>
+<option value="2019-03-13">March 13, 2019</option>
+<option value="2019-03-20">March 20, 2019</option>
+<option value="2019-03-27">March 27, 2019</option>
+<option value="2019-04-03">April 3, 2019</option>
+<option value="2019-04-10">April 10, 2019</option>
+<option value="2019-04-24">April 24, 2019</option>
+<option value="2019-05-08">May 8, 2019</option>
+<option value="2019-05-15">May 15, 2019</option>
+<option value="2019-05-22">May 22, 2019</option>
+<option value="2019-05-29">May 29, 2019</option>
+<option value="2019-06-05">June 5, 2019</option>
+<option value="2019-06-12">June 12, 2019</option>
+<option value="2019-06-19">June 19, 2019</option>
+<option value="2019-07-17">July 17, 2019</option>
+<option value="2019-07-24">July 24, 2019</option>
+<option value="2019-07-31">July 31, 2019</option>
+<option value="2019-08-07">August 7, 2019</option>
+<option value="2019-08-14">August 14, 2019</option>
+<option value="2019-08-21">August 21, 2019</option>
+<option value="2019-08-28">August 28, 2019</option>
+<option value="2019-09-11">September 11, 2019</option>
+<option value="2019-09-18">September 18, 2019</option>
+<option value="2019-09-25">September 25, 2019</option>
+<option value="2019-10-02">October 2, 2019</option>
+<option value="2019-10-09">October 9, 2019</option>
+<option value="2019-10-16">October 16, 2019</option>
+<option value="2019-10-23">October 23, 2019</option>
+<option value="2019-10-30">October 30, 2019</option>
+<option value="2019-11-06">November 6, 2019</option>
+<option value="2019-11-13">November 13, 2019</option>
+<option value="2019-11-20">November 20, 2019</option>
+<option value="2019-12-04">December 4, 2019</option>
+</select>
+</label>
+<label>
+<input id="go" type="submit" value="View Results"/>
+</label>
+</form></td>
+</tr>
+</table>
+</div>
+<div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#69831   Real Estate | <a href="sheriff_sale_details.php?ss_id=117"><strong>First National Bank USA vs. Bully's Half-Way House, Inc. and Margaret Theresa Madere</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">3701 U.S HIGHWAY 51/3701 Main St
+LAPLACE LA 70068<br/>
+                    Plaintiff Attorney: <strong>Mark C. Landry </strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>January 25, 2017</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#69894   Real Estate | <a href="sheriff_sale_details.php?ss_id=122"><strong>Wells Fargo Bank, N.A. vs. Troy Anthony Saul</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">2232 GREENWOOD DR
+LAPLACE LA 70068<br/>
+                    Plaintiff Attorney: <strong>Jason R. Smith</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>February 1, 2017</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#69976   Real Estate | <a href="sheriff_sale_details.php?ss_id=151"><strong>U.S. Bank National Association, as Trustee for Residential Asset Securities Corporation, Home Equity Mortgage Asset-Backed Pass-Through Certificates, Series 2007-KS3 vs. Vance T. Jones A/K/A Vance Jones and Erin Jones</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">2145 Golfview Drive
+LaPlace, LA 70068 <br/>
+                    Plaintiff Attorney: <strong>Corey J. Giroir</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>May 22, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="Sold" hspace="17" src="grafx/aa_signs/sold.png"/></p></td>
+<td><h3>#66341   Real Estate | <a href="sheriff_sale_details.php?ss_id=160"><strong>JPMorgan Chase Bank, National Association  vs. Kenneth M. Earls </strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">104 Riverlands Drive 
+LaPlace, Louisiana 70068<br/>
+                    Plaintiff Attorney: <strong>Fred Daigle</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>October 2, 2019</strong></p>
+<p>Status: <strong>Sold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#70232   Real Estate | <a href="sheriff_sale_details.php?ss_id=165"><strong>U.S. Bank National Association vs. The Succession of Anthony Eugene, Jr. A/K/A Anthony A. Eugene, Jr. A/K/A Anthony Eugene, Jr. and Joycelyn Piper Eugene A/K/A Joycelyn P. Eugene A/K/A Joycelyn Eugene</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">609 MONTICELLO DRIVE
+LAPLACE LA 70068<br/>
+                    Plaintiff Attorney: <strong>Corey J. Giroir </strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>August 23, 2017</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#69988   Real Estate | <a href="sheriff_sale_details.php?ss_id=194"><strong>WELLS FARGO BANK, NATIONAL ASSOCIATION, AS TRUSTEE FOR OPTION ONE MORTGAGE LOAN TRUST 2005-2, ASSET-BACKED CERTIFICATES, SERIES 2005-2 vs. KIRK B. ANDERSON A/K/A KIRK ANDERSON AND VANESSA NELSON ANDERSON A/K/A VANESSA N. ANDERSON A/K/A VANESSA ANDERSON</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">2106 PEBBLE BEACH DRIVE
+LAPLACE, LOUISIANA <br/>
+                    Plaintiff Attorney: <strong>COREY J. GIROIR </strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>April 24, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#69992   Real Estate | <a href="sheriff_sale_details.php?ss_id=195"><strong>WELLS FARGO BANK, N.A. vs. JULIETTE JACKSON A/K/A JULIETTE MARIE JACKSON AND HUEY LONG, SR., AS ADMINISTRATOR OF THE SUCCESSION OF ROSE JACKSON A/K/A ROSE MAE WALLACE JACKSON A/K/A ROSEMARY WALLACE LONG JACKSON</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">167 HISTORIC MAIN STREET
+GARYVILLE, LA 
+<br/>
+                    Plaintiff Attorney: <strong>LOGAN MASSEY</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>October 16, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#70505   Real Estate | <a href="sheriff_sale_details.php?ss_id=228"><strong>DEUTSCHE BANK NATIONAL TRUST COMPANY, AS CERTIFICATE TRUSTEE ON BEHALF OF BOSCO CREDIT II TRUST SERIES 2010-1 vs. ERNEST TALFORD A/K/A ERNEST ROBERT TALFORD AND MARY JONES TALFORD</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">508 SAINT ANDREWS BLVD
+LAPLACE LA 70068<br/>
+                    Plaintiff Attorney: <strong>Logan Massey </strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>June 21, 2017</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#70449   Real Estate | <a href="sheriff_sale_details.php?ss_id=229"><strong>THE BANK OF NEW YORK MELLON FKA THE BANK OF NEW YORK, AS TRUSTEE (CWALT 2004-24CB) vs. GWENDY MEREDITH ROBINSON A/K/A GWENDY M. ROBINSON A/K/A GWENDY ROBINSON</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">16 SAINT LOUPE DRIVE
+LAPLACE LA 70068<br/>
+                    Plaintiff Attorney: <strong>Corey J. Giroir</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>February 28, 2018</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#70619   Real Estate | <a href="sheriff_sale_details.php?ss_id=246"><strong>SECRETARY OF VETERAN'S AFFAIRS vs. ELIZABETH REDMOND CALLAHAN AND PATRICK DANIEL CALLAHAN</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">1820 Lee Dr
+LaPlace, LA  70068<br/>
+                    Plaintiff Attorney: <strong>Jason R. Smith</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>August 2, 2017</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#70314   Real Estate | <a href="sheriff_sale_details.php?ss_id=256"><strong>U.S. BANK NATIONAL ASSOCIATION vs. ANTHONY T. WILLIAMS AND LASHANA WINN WILLIAMS A/K/A LASHANA W. WILLIAMS</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">1813 FAIRWAY DRIVE, LAPLACE, LOUISIANA<br/>
+                    Plaintiff Attorney: <strong>Logan Massey</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>June 5, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#70750   Real Estate | <a href="sheriff_sale_details.php?ss_id=259"><strong>THE BANK OF NEW YORK MELLON TRUST COMPANY, NATIONAL ASSOCIATION FKA THE BANK OF NEW YORK TRUST COMPANY, N.A. AS SUCCESSOR TO JP MORGAN CHASE BANK, NATIONAL ASSOCIATION, AS TRUSTEE FOR RESIDENTIAL ASSET MORTGAGE PRODUCTS, INC., GMACM HOME EQUITY LOAN  vs. MONROE BROWN</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top"><br/>
+                    Plaintiff Attorney: <strong>Corey J. Giroir</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>August 16, 2017</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#70994   Real Estate | <a href="sheriff_sale_details.php?ss_id=285"><strong>JPMORGAN CHASE BANK, NATIONAL ASSOCIATION vs. HENRY MELL BUSH, JR. AND DWAN MICHELLE EVANS BUSH</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">3001 SHERWOOD DRIVE LAPLACE, LOUISIANA <br/>
+                    Plaintiff Attorney: <strong>Daniel A. Reed</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>January 9, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#71325   Real Estate | <a href="sheriff_sale_details.php?ss_id=325"><strong>FEDERAL NATIONAL MORTGAGE ASSOCIATION vs. LESLIE FRANCOIS MACK WIFE OF/AND HARDELL MACK</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">245 Somerset Road LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Stacy Wheat</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>February 21, 2018</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="Cancelled" hspace="17" src="grafx/aa_signs/cancelled.jpg"/></p></td>
+<td><h3>#68967   Real Estate | <a href="sheriff_sale_details.php?ss_id=336"><strong>EVERBANK vs. GLORIA ANN CEASER, (A/K/A GLORIA ANN DAVIS)</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">712 REVERE DRIVE, LAPLACE, LOUISIANA <br/>
+                    Plaintiff Attorney: <strong>Lindsay G. Faulkner</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>February 21, 2018</strong></p>
+<p>Status: <strong>Cancelled</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#70656   Real Estate | <a href="sheriff_sale_details.php?ss_id=338"><strong>FLAGSTAR BANK, FSB vs. JANAYYA ALEXIS A/K/A JANAYYA JERMAE ALEXIS DAVIS ANTOINE</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">2513 Lexington Drive, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Logan Massey</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>February 28, 2018</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#71536   Real Estate | <a href="sheriff_sale_details.php?ss_id=341"><strong>WILMINGTON SAVINGS FUND SOCIETY, FSB, AS TRUSTEE FOR UPLAND MORTGAGE LOAN TRUST A vs. GABRIELA LAMBERT BERNARDEZ</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">514 Welham Loop, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Jason R. Smith</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>March 14, 2018</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#71518   Real Estate | <a href="sheriff_sale_details.php?ss_id=343"><strong>WILMINGTON SAVINGS FUND SOCIETY, FSB AS OWNER TRUSTEE OF THE RESIDENTIAL CREDIT OPPORTUNITIES TRUST V-D vs. DOROTHY M. BARRIE, (A/K/A DOROTHY MAE BARRIE, DOT MAE BARRIE, DOROTHY MAE JACKSON, DOT MAE JACKSON)</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">105 Devon Road, Laplace, Louisiana 70068<br/>
+                    Plaintiff Attorney: <strong>Emily E. Holley</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>July 31, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#66128   Real Estate | <a href="sheriff_sale_details.php?ss_id=372"><strong>THE BANK OF NEW YORK MELLON FKA THE BANK OF NEW YORK, AS TRUSTEE FOR THE CERTIFICATEHOLDERS OF THE CWABS, INC., ASSET-BACKED CERTIFICATES, SERIES 2007-4 vs. NORMA E. HALEY A/K/A NORMA ELLIS HALEY</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">229 S Church Street Garyville, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Rachel A. Williams</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>June 6, 2018</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#70527   Real Estate | <a href="sheriff_sale_details.php?ss_id=373"><strong>JPMORGAN CHASE BANK, NATIONAL ASSOCIATION vs. GLADYS KNIGHT SMALL WIFE OF/AND GARFIELD L. SMALL</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">157 Palmetto Road LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Fred Daigle</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>June 13, 2018</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="Sold" hspace="17" src="grafx/aa_signs/sold.png"/></p></td>
+<td><h3>#72084   Real Estate | <a href="sheriff_sale_details.php?ss_id=375"><strong>J.P. MORGAN MORTGAGE ACQUISITION CORP. vs. LACURSHIA W. HAYNES, (A/K/A LACURSHIA HAYNES)</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">8773 Sunnyside Drive, LaPlace, Louisiana<br/>
+                    Plaintiff Attorney: <strong>Emily E. Holley</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>July 17, 2019</strong></p>
+<p>Status: <strong>Sold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="Sold" hspace="17" src="grafx/aa_signs/sold.png"/></p></td>
+<td><h3>#72100   Real Estate | <a href="sheriff_sale_details.php?ss_id=378"><strong>WELLS FARGO BANK, N.A. vs. MICHEL REMY</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">210 BEDFORD STREET, LAPLACE, LOUISIANA <br/>
+                    Plaintiff Attorney: <strong>Candace M. Bowen</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>July 24, 2019</strong></p>
+<p>Status: <strong>Sold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#72047   Real Estate | <a href="sheriff_sale_details.php?ss_id=379"><strong>JPMORGAN CHASE BANK, NATIONAL ASSOCIATION vs. JARELL GABRIEL HIGGINBOTHAM WIFE OF/AND ANTONIA V. HIGGINBOTHAM A/K/A ANTONIA VANKEITH HIGGINBOTHAM</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">2 SUMMERLIN DRIVE, LAPLACE, LOUISIANA <br/>
+                    Plaintiff Attorney: <strong>FOERSTNER GRAHAM MEYER</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>June 20, 2018</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="Sold" hspace="17" src="grafx/aa_signs/sold.png"/></p></td>
+<td><h3>#72139   Real Estate | <a href="sheriff_sale_details.php?ss_id=385"><strong>JPMORGAN CHASE BANK, NATIONAL ASSOCIATION vs. ISAAC GANT, IV</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">230 HOMEWOOD PLACE, RESERVE, LOUISIANA <br/>
+                    Plaintiff Attorney: <strong>Allison N. Beasley</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>September 11, 2019</strong></p>
+<p>Status: <strong>Sold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#70788   Real Estate | <a href="sheriff_sale_details.php?ss_id=389"><strong>WILMINGTON SAVINGS FUND SOCIETY, FSB, AS TRUSTEE OF FINANCE OF AMERICA STRUCTURED SECURITIES ACQUISITION TRUST 2019-HB1 vs. HENRY JONES, JR.</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">1800 Williamsburg Drive, LaPlace<br/>
+                    Plaintiff Attorney: <strong>Rader Jackson </strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>August 14, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#72285   Real Estate | <a href="sheriff_sale_details.php?ss_id=392"><strong>THE BANK OF NEW YORK MELLON F/K/A THE BANK OF NEW YORK AS SUCCESSOR IN INTEREST TO JPMORGAN CHASE BANK, N.A., AS TRUSTEE FOR RBSGC MORTGAGE LOAN TRUST MORTGAGE PASS-THROUGH CERTIFICATES, SERIES 2005-RP1 vs. THE UNOPENED SUCCESSION OF MARCELLE E. PERRILLOUX A/K/A MARCELLE E. PERRILLOUX A/K/A MARCELLE PERRILLOUX AND PAULA PRESTON PERRILLOUX A/K/A PAULA P. PERRILLOUX A/K/A PAULA PERRILLOUX A/K/A PAULA PRESTON</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">636 Foxwood Lane, Laplace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Corey J. Giroir</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>August 1, 2018</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#72380   Real Estate | <a href="sheriff_sale_details.php?ss_id=405"><strong>APEX BANK F/K/A BANK OF CAMDEN vs. NELSON RAMOS AND CONNIE MARIE RAMOS, (A/K/A CONNIE MARIE COOK</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">205 Bedford Street, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Emily E. Holley</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>August 29, 2018</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="For Sale" hspace="17" src="grafx/aa_signs/forsale.png"/></p></td>
+<td><h3>#72525   Real Estate | <a href="sheriff_sale_details.php?ss_id=419"><strong>WELLS FARGO BANK, N.A. vs. ROBIN PERRILLOUX A/K/A ROBIN PERRILLOUX MCKINNIS</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">12 Grigio Loop, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Jason R. Smith</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>December 4, 2019</strong></p>
+<p>Status: <strong>For Sale</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#72345   Real Estate | <a href="sheriff_sale_details.php?ss_id=426"><strong>FEDERAL NATIONAL MORTGAGE ASSOCIATION vs. MERCEDES MARIONEAUX A/K/A MERCEDES R. MARIONEAUX WIFE OF/AND EDWIN P. MARIONEAUX A/K/A EDWIN P. MARIONEAUX, SR.</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">231 HISTORIC MAIN STREET, GARYVILLE, LOUISIANA<br/>
+                    Plaintiff Attorney: <strong>Fred Daigle</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>October 10, 2018</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#72697   Real Estate | <a href="sheriff_sale_details.php?ss_id=431"><strong>DITECH FINANCIAL LLC vs. RAYDELL M. MASON A/K/A RAYDELL MASON AND TAQUANA ZENO MASON A/K/A TAQUANA Z. MASON A/K/A TAQUANA MASON</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">226 DEVON ROAD LAPLACE, LOUISIANA <br/>
+                    Plaintiff Attorney: <strong>Corey J. Giroir</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>May 8, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#72864   Real Estate | <a href="sheriff_sale_details.php?ss_id=441"><strong>REVERSE MORTGAGE SOLUTIONS, INC. vs. HAZEL MCCRAY DILLION, INDIVIDUALLY AND AS SURVIVING SPOUSE IN COMMUNITY WITH BENNIE DILLION, SR.</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">769 Lafayette Drive, LaPlace, Louisiana 70068<br/>
+                    Plaintiff Attorney: <strong>Rader Jackson </strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>March 13, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#72699   Real Estate | <a href="sheriff_sale_details.php?ss_id=446"><strong>JPMORGAN CHASE BANK, NATIONAL ASSOCIATION vs. CHRISTINE MARIE PERRILLOUX</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">188 Dufresne Drive, Wallace, Louisiana 70090 <br/>
+                    Plaintiff Attorney: <strong>Allison N. Beasley</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>December 5, 2018</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="For Sale" hspace="17" src="grafx/aa_signs/forsale.png"/></p></td>
+<td><h3>#72749   Real Estate | <a href="sheriff_sale_details.php?ss_id=447"><strong>BANK OF AMERICA, N.A. vs. WILLIE BONNIE SMITH A/K/A BONNIE SMITH</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">1937 Williamsburg Drive, LaPlace, Louisiana 70068<br/>
+                    Plaintiff Attorney: <strong>Jason R. Smith</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>December 5, 2018</strong></p>
+<p>Status: <strong>For Sale</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#72888   Real Estate | <a href="sheriff_sale_details.php?ss_id=448"><strong>U.S. BANK NATIONAL ASSOCIATION vs. KEVIN K. DAVIS A/K/A KEVIN KURT DAVIS A/K/A KEVIN DAVIS AND LYNN S. DAVIS A/K/A LYNN MARIE SPEARS DAVIS A/K/A LYNN MARIE SPEARS A/K/A LYNN M. SPEARS A/K/A LYNN SPEARS A/K/A LYNN MARIE DAVIS A/K/A LYNN M. DAVIS A/K/A LYNN DAVIS A/K/A LYNN SPEARS DAVIS</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">2145 Colonial Drive, LaPlace, Louisiana 70068<br/>
+                    Plaintiff Attorney: <strong>Corey J. Giroir</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>December 5, 2018</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#72048   Real Estate | <a href="sheriff_sale_details.php?ss_id=449"><strong>U.S. BANK TRUST NATIONAL ASSOCIATION, NOT IN ITS INDIVIDUAL CAPACITY BUT SOLELY AS DELAWARE TRUSTEE AND U.S. BANK NATIONAL ASSOCIATION, NOT IN ITS INDIVIDUAL CAPACITY BUT SOLELY AS CO-TRUSTEE FOR GOVERNMENT LOAN SECURITIZATION TRUST 2011- FV1 vs. BEVERLY ANN ROYAL A/K/A BEVERLY ANN ROYAL GRAYSON</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">2608 English Colony Drive, LaPlace, Louisiana 70068<br/>
+                    Plaintiff Attorney: <strong>Candace M. Bowen</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>June 19, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#72910   Real Estate | <a href="sheriff_sale_details.php?ss_id=450"><strong>DITECH FINANCIAL LLC vs. KEVIN ANTHONY SCOTT, SR., (A/K/A KEVIN ANTHONY SCOTT) AND LUCRETIA TELFAIR SCOTT, (A/K/A LUCRETIA TELFAIR, LUCRETIA SCOTT)</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">125 Tammy Drive, Laplace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Emily E. Holley</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>December 12, 2018</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="For Sale" hspace="17" src="grafx/aa_signs/forsale.png"/></p></td>
+<td><h3>#72905   Real Estate | <a href="sheriff_sale_details.php?ss_id=460"><strong>BAYVIEW LOAN SERVICING, LLC vs. BRIAN WAYNE CHAPPELL</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">528 Gardenia Avenue, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Kristy Massey Finley</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>November 20, 2019</strong></p>
+<p>Status: <strong>For Sale</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="Sold" hspace="17" src="grafx/aa_signs/sold.png"/></p></td>
+<td><h3>#72866   Real Estate | <a href="sheriff_sale_details.php?ss_id=461"><strong>JPMORGAN CHASE BANK, NATIONAL ASSOCIATION vs. CRAIGORY DEVARE</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">2441 Hebert Drive, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Allison N. Beasley</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>October 16, 2019</strong></p>
+<p>Status: <strong>Sold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#73098   Real Estate | <a href="sheriff_sale_details.php?ss_id=469"><strong>LOANDEPOT.COM, LLC vs. GARY F. ELLIS, (A/K/A GARY ELLIS)</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">42 Tuscany Drive, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Penny M. Daigrepont</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>January 30, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#72445   Real Estate | <a href="sheriff_sale_details.php?ss_id=473"><strong>VILLAGE CAPITAL &amp; INVESTMENT, LLC vs. CHARLIE WILLIAMS, JR.</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">1712 Virginian Colony Ave. LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Jason R. Smith</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>April 3, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#73075   Real Estate | <a href="sheriff_sale_details.php?ss_id=474"><strong>WILMINGTON TRUST, NATIONAL ASSOCIATION, NOT IN ITS INDIVIDUAL CAPACITY, BUT SOLELY AS TRUSTEE FOR MFRA TRUST 2016-1 vs. CORLISS M. ROBESKIE A/K/A CORLISS M. ROBESKIE-WILLIAMS A/K/A CARLISS M. ROBESKIE-WILLIAMS</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">2725 Cambridge Drive, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Jason R. Smith</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>January 30, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#72879   Real Estate | <a href="sheriff_sale_details.php?ss_id=477"><strong>HOME POINT FINANCIAL CORPORATION vs. JUANITA VERDINE SMITH A/K/A JUANITA V. SMITH A/K/A JUANITA SMITH</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">2324 Cambridge Drive, LaPlace, Louisiana<br/>
+                    Plaintiff Attorney: <strong>Corey J. Giroir</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>February 6, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="For Sale" hspace="17" src="grafx/aa_signs/forsale.png"/></p></td>
+<td><h3>#73114   Real Estate | <a href="sheriff_sale_details.php?ss_id=479"><strong>JPMORGAN CHASE BANK, NATIONAL ASSOCIATION vs. VELMA CANE WILLIS A/K/A VELMA M. CAIN A/K/A VELMA M. DUNDAR DIVORCED WIFE BY FIRST MARRIAGE OF JOHN FITZGERALD DUNBAR DIVORCED WIFE BY SECOND MARRIAGE OF JOHN FITZGERALD WILLIS</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">409 Coles Landing, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Stacy Wheat</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>October 30, 2019</strong></p>
+<p>Status: <strong>For Sale</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#73153   Real Estate | <a href="sheriff_sale_details.php?ss_id=481"><strong>MIDFIRST BANK vs. RANDALL CAMPBELL AND KATRINA BARNEY CAMPBELL</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">2221 Greenwood Drive, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Kristy Massey Finley</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>April 3, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#67645   Real Estate | <a href="sheriff_sale_details.php?ss_id=488"><strong>THE BANK OF NEW YORK MELLON TRUST COMPANY, NATIONAL ASSOCIATION FKA THE BANK OF NEW YORK TRUST COMPANY, N.A. AS SUCCESSOR TO JPMORGAN CHASE BANK, N.A., AS TRUSTEE FOR RESIDENTIAL ASSET MORTGAGE PRODUCTS, INC., MORTGAGE ASSET-BACKED PASS-THROUGH CERTI vs. MARCUS A DEEMER</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">1820 English Colony Drive, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Penny M. Daigrepont</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>February 27, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#73259   Real Estate | <a href="sheriff_sale_details.php?ss_id=489"><strong>CITIMORTGAGE, INC. vs. DARLENE JONES ALLEN</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">2300 Yorktowne Drive, LaPlace, Louisiana<br/>
+                    Plaintiff Attorney: <strong>Rader Jackson </strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>June 12, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#73156   Real Estate | <a href="sheriff_sale_details.php?ss_id=491"><strong>WILMINGTON SAVINGS FUND SOCIETY, FSB, D/B/A CHRISTIANA TRUST AS OWNER TRUSTEE OF THE RESIDENTIAL CREDIT OPPORTUNITIES TRUST V vs. MAMIE WHITE SCOTT A/K/A MAMIE WHITE MORRISON AND WILLIE DEON SCOTT, JR.</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">2505 S Sugar Ridge Road, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Kristy Massey Finley</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>October 9, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#73276   Real Estate | <a href="sheriff_sale_details.php?ss_id=495"><strong>FEDERAL NATIONAL MORTGAGE ASSOCIATION vs. WILLIE RALLEIGH</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">2329 South Sugar Ridge Road, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Fred Daigle</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>March 20, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="Sold" hspace="17" src="grafx/aa_signs/sold.png"/></p></td>
+<td><h3>#72732   Real Estate | <a href="sheriff_sale_details.php?ss_id=497"><strong>BUSINESS FIRST BANK vs. GUILLOTS SERVICES, INC.</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">509 W Airline Hwy, LaPlace, Louisiana
+and
+1008 Cambridge Drive, LaPlace, Louisiana  
+and
+110 Rue Dubourg, LaPlace, Louisiana<br/>
+                    Plaintiff Attorney: <strong>Sharon Starkey Whitlow</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>May 15, 2019</strong></p>
+<p>Status: <strong>Sold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="For Sale" hspace="17" src="grafx/aa_signs/forsale.png"/></p></td>
+<td><h3>#72633   Real Estate | <a href="sheriff_sale_details.php?ss_id=498"><strong>U.S. BANK NATIONAL ASSOCIATION vs. CHELSEY KRISTEN PICHON A/K/A CHELSEY KRISTEN PICHON FIELDS</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">218 HOMEWOOD DRIVE, LAPLACE, LOUISIANA <br/>
+                    Plaintiff Attorney: <strong>Jason R. Smith</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>October 30, 2019</strong></p>
+<p>Status: <strong>For Sale</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#73262   Real Estate | <a href="sheriff_sale_details.php?ss_id=499"><strong>CARRINGTON MORTGAGE SERVICES, LLC vs. CATRINA DIGGS BREAUX, (A/K/A CATRINA D. BREAUX, CATRINA DIGGS, CATRINA BREAUX) AND ELTON G. BREAUX, (A/K/A ELTON G. BREAUX, SR.)</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">677 ROCCAFORTE DRIVE, GARYVILLE, LOUISIANA <br/>
+                    Plaintiff Attorney: <strong>Remy F. Symons</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>March 27, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#73311   Real Estate | <a href="sheriff_sale_details.php?ss_id=504"><strong>FREEDOM MORTGAGE CORPORATION vs. KENEITRA BROWN-MAYFIELD ANDRE RAMONE MAYFIELD</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">229 Southpass Drive, LaPlace, Louisiana<br/>
+                    Plaintiff Attorney: <strong>Stacy G. Butler</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>April 10, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#73334   Real Estate | <a href="sheriff_sale_details.php?ss_id=507"><strong>WELLS FARGO BANK, NATIONAL ASSOCIATION, SUCCESSOR BY MERGER TO WELLS FARGO BANK MINNESOTA, NATIONAL ASSOCIATION (FORMERLY KNOWN AS NORWEST BANK MINNESOTA, NATIONAL ASSOCIATION) AS TRUSTEE FOR OPTION ONE MORTGAGE LOAN TRUST 1999-A, ASSET-BACKED CERTIF vs. SUZANNA MEYER BECKNEL A/K/A SUZANNA M. BECKNEL A/K/A SUZANNA BECKNEL A/K/A SUZANNA MEYER AND WILLIAM WARREN BECKNEL, JR. A/K/A WILLIAM W. BECKNEL, JR. A/K/A WILLIAM BECKNEL, JR. A/K/A WILLIAM WARREN BECKNEL A/K/A WILLIAM W. BECKNEL A/K/A WILLIAM BECK</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">929 Madewood Drive, Laplace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Corey J. Giroir</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>October 16, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="Sold" hspace="17" src="grafx/aa_signs/sold.png"/></p></td>
+<td><h3>#73197   Real Estate | <a href="sheriff_sale_details.php?ss_id=513"><strong>DEUTSCHE BANK NATIONAL TRUST COMPANY, AS TRUSTEE FOR SOUNDVIEW HOME LOAN TRUST 2006-NLC1, ASSET-BACKED CERTIFICATES, SERIES 2006-NLC1 vs. NICHELLE WILLIAMS A/K/A NICHELLE WILLIAMS PARQUET A/K/A NICHELLE W. PARQUET A/K/A NICHELLE PARQUET</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">2732 Williamsburg Drive, LaPlace, Louisiana<br/>
+                    Plaintiff Attorney: <strong>Corey J. Giroir</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>August 28, 2019</strong></p>
+<p>Status: <strong>Sold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#71470   Real Estate | <a href="sheriff_sale_details.php?ss_id=524"><strong>DEUTSCHE BANK NATIONAL TRUST COMPANY, AS TRUSTEE, IN TRUST FOR THE REGISTERED HOLDERS OF MORGAN STANLEY ABS CAPITAL I INC. TRUST 2004-HE1, MORTGAGE PASS-THROUGH CERTIFICATES, SERIES 2004-HE1 vs. SHARON F. CROSS</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">2175 Doral Boulevard, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Rader Jackson </strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>July 24, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#71079   Real Estate | <a href="sheriff_sale_details.php?ss_id=526"><strong>U. S. BANK NATIONAL ASSOCIATION TRUSTEE FOR CMALT REMIC SERIES 2007-A6-REMIC PASS-THROUGH CERTIFICATES SERIES 2007-A6 vs. ELIZABETH A. CARRILLO WIFE OF/AND MANUEL A. CARRILLO</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">212 Warwick Street, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>FOERSTNER GRAHAM MEYER</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>August 7, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#73424   Real Estate | <a href="sheriff_sale_details.php?ss_id=528"><strong>JPMORGAN CHASE BANK, NATIONAL ASSOCIATION vs. CLAUDE B WASHINGTON</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">280 Oak Point Drive, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Allison N. Beasley</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>May 29, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#73615   Real Estate | <a href="sheriff_sale_details.php?ss_id=529"><strong>PENNYMAC LOAN SERVICES, LLC vs. JOY MORRELL</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">109 Live Oak Blvd, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Jason R. Smith</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>June 5, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#73631   Real Estate | <a href="sheriff_sale_details.php?ss_id=530"><strong>THE BANK OF NEW YORK MELLON TRUST COMPANY, NATIONAL ASSOCIATION FKA THE BANK OF NEW YORK TRUST COMPANY, N.A. AS SUCCESSOR TO JPMORGAN CHASE BANK, N.A., AS TRUSTEE FOR RESIDENTIAL ASSET MORTGAGE PRODUCTS, INC., MORTGAGE ASSET-BACKED PASS-THROUGH CERTI vs. CATHERINE A. GROS A/K/A CATHERINE GROS AND THE UNOPENED SUCCESSION OF NICKOLAS J. BATES, III A/K/A NICKOLAS J. BATES, III A/K/A NICKOLAS BATES, III</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">126 W 17th Street, Reserve, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Corey J. Giroir</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>June 5, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="For Sale" hspace="17" src="grafx/aa_signs/forsale.png"/></p></td>
+<td><h3>#73594   Real Estate | <a href="sheriff_sale_details.php?ss_id=531"><strong>WELLS FARGO, N.A. vs. CHESTER J. VICTOR, III AND KAREN CARTER VICTOR</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">1028 Gemini Drive, Reserve, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Candace M. Bowen</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>October 30, 2019</strong></p>
+<p>Status: <strong>For Sale</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="For Sale" hspace="17" src="grafx/aa_signs/forsale.png"/></p></td>
+<td><h3>#73488   Movable | <a href="sheriff_sale_details.php?ss_id=532"><strong>DITECH FINANCIAL LLC vs. ESTATE OF LEE R. REMONDET</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Movable" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">107 Acosta Drive, Reserve, Louisiana<br/>
+                    Plaintiff Attorney: <strong>Cris Jackson</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>November 20, 2019</strong></p>
+<p>Status: <strong>For Sale</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#72960   Real Estate | <a href="sheriff_sale_details.php?ss_id=534"><strong>THE BANK OF NEW YORK MELLON TRUST COMPANY, N.A. FKA THE BANK OF NEW YORK TRUST COMPANY, N.A., AS TRUSTEE FOR RESIDENTIAL ASSET MORTGAGE PRODUCTS, INC., MORTGAGE ASSET-BACKED PASS-THROUGH CERTIFICATES SERIES 2006-RP4 vs. TAKEISHA STYLES WILLIAMS, ODELL B. WILLIAMS, JR. A/K/A ODELL BROOKS WILLIAMS, JR. AND A'KEELI OMAIRE WILLIAMS</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">2912 Essex Avenue, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Jason R. Smith</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>October 9, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#73664   Real Estate | <a href="sheriff_sale_details.php?ss_id=535"><strong>U.S. BANK NATIONAL ASSOCIATION, AS TRUSTEE, SUCCESSOR IN INTEREST TO BANK OF AMERICA, NATIONAL ASSOCIATION, AS TRUSTEE, SUCCESSOR BY MERGER TO LASALLE BANK NATIONAL ASSOCIATION, AS TRUSTEE FOR MERRILL LYNCH MORTGAGE INVESTORS TRUST, MORTGAGE LOAN ASS vs. CRYSTAL WILLIAMS JENKINS</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">2209 Van Arpel Drive, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Kristy Massey Finley</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>June 12, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#72743   Real Estate | <a href="sheriff_sale_details.php?ss_id=536"><strong>DEUTSCHE BANK NATIONAL TRUST COMPANY, AS TRUSTEE, FOR CARRINGTON MORTGAGE LOAN TRUST, SERIES 2005-NC3 ASSET BACKED PASS-THROUGH CERTIFICATES vs. CURTIS W. TURLEY JOSEPHINE RILEY TURLEY</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">1929 Williamsburg Drive, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>J. Donald Morgan </strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>June 12, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#73685   Real Estate | <a href="sheriff_sale_details.php?ss_id=538"><strong>FREEDOM MORTGAGE CORPORATION vs. FRANCISCO JAVIER RIVERA, JR. AND RENEE ALEXANDER RIVERA</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">405 Bellevue Drive, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Rader Jackson </strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>July 31, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="Sold" hspace="17" src="grafx/aa_signs/sold.png"/></p></td>
+<td><h3>#73390   Real Estate | <a href="sheriff_sale_details.php?ss_id=539"><strong>FIDELITY BANK vs. READINA A. SEARS</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">2517 Virginian Colony Drive, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>J. Donald Morgan </strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>August 21, 2019</strong></p>
+<p>Status: <strong>Sold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="Sold" hspace="17" src="grafx/aa_signs/sold.png"/></p></td>
+<td><h3>#73556   Real Estate | <a href="sheriff_sale_details.php?ss_id=543"><strong>HSBC BANK USA, NATIONAL ASSOCIATION, AS TRUSTEE, FOR THE REGISTERED HOLDER OF NOMURA HOME EQUITY HOME LOAN, INC. ASSET-BACKED CERTIFICATES, SERIES 2007-2 vs. TIFFANY GRISON WESTON A/K/A TIFFANY G. WESTON A/K/A TIFFANY WESTON AND DARREL K. WESTON A/K/A DARREL WESTON</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">642 N W 2ND STREET, RESERVE, LOUISIANA<br/>
+                    Plaintiff Attorney: <strong>Corey J. Giroir</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>July 17, 2019</strong></p>
+<p>Status: <strong>Sold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#73736   Real Estate | <a href="sheriff_sale_details.php?ss_id=544"><strong>GMFS LLC vs. ROBER L. PEREZ GOMEZ</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">1954 LONGWOOD COURT, LAPLACE, LOUISIANA <br/>
+                    Plaintiff Attorney: <strong>Kristy Massey Finley</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>July 17, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#73780   Real Estate | <a href="sheriff_sale_details.php?ss_id=545"><strong>U.S. BANK NATIONAL ASSOCIATION vs. EARTHA J. BERRYHILL</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">258 Fir Street, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Jason R. Smith</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>October 9, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#64268   Real Estate | <a href="sheriff_sale_details.php?ss_id=546"><strong>U.S. BANK NATIONAL ASSOCIATION S/B/M TO THE LEADER MORTGAGE COMPANY vs. KASHELLA M. ISAAC A/K/A KASHELLA MONICIA ISAAC A/K/A KASHELLA ISAAC</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">536 Heritage Cove, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Candace M. Bowen</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>July 17, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="Sold" hspace="17" src="grafx/aa_signs/sold.png"/></p></td>
+<td><h3>#73519   Real Estate | <a href="sheriff_sale_details.php?ss_id=547"><strong>NATIONSTAR MORTGAGE LLC D/B/A MR. COOPER vs. JOHN W. KUSS A/K/A JOHN WALTER KUSS AND GWENDOLYN BERTEAU KUSS A/K/A GWENDOLYN C. KUSS</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">2424 Williamsburg Drive, LaPlace, Louisiana<br/>
+                    Plaintiff Attorney: <strong>Kristy Massey Finley</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>July 17, 2019</strong></p>
+<p>Status: <strong>Sold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#73568   Real Estate | <a href="sheriff_sale_details.php?ss_id=548"><strong>NATIONSTAR MORTGAGE LLC D/B/A MR. COOPER vs. DAVID T. TROTTER AND EBONI BATISTE TROTTER</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">116 Oak Bend Drive, LaPlace, Louisiana<br/>
+                    Plaintiff Attorney: <strong>Jason R. Smith</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>July 17, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="Sold" hspace="17" src="grafx/aa_signs/sold.png"/></p></td>
+<td><h3>#73831   Movable | <a href="sheriff_sale_details.php?ss_id=549"><strong>21ST MORTGAGE CORPORATION vs. GERALDINE WATKINS</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Movable" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">626 West 2nd Street, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Karen E. Trevathan</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>August 21, 2019</strong></p>
+<p>Status: <strong>Sold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#72815   Real Estate | <a href="sheriff_sale_details.php?ss_id=551"><strong>JPMORGAN CHASE BANK, NATIONAL ASSOCIATION vs. DAMIAN J. RILEY, SR.</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">172 Dufresne Drive, Wallace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Allison N. Beasley</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>July 24, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#73756   Real Estate | <a href="sheriff_sale_details.php?ss_id=552"><strong>LAKEVIEW LOAN SERVICING LLC vs. LEROY D. BELL, SR. A/K/A LEROY BELL, SR. A/K/A LEROY D. BELL A/K/A LEROY BELL</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">389 East 22nd Street, Reserve, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Corey J. Giroir</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>July 24, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="Sold" hspace="17" src="grafx/aa_signs/sold.png"/></p></td>
+<td><h3>#73250   Real Estate | <a href="sheriff_sale_details.php?ss_id=553"><strong>DEUTSCHE BANK NATIONAL TRUST COMPANY, AS TRUSTEE FOR MERITAGE MORTGAGE LOAN TRUST 2005-2 ASSET BACKED CERTIFICATES, SERIES 2005-2 vs. THE UNOPENED SUCCESSION OF ANTHONY MITCHELL A/K/A ANTHONY MITCHELL</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">1605 South Sugar Ridge Road, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Corey J. Giroir</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>July 24, 2019</strong></p>
+<p>Status: <strong>Sold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#73838   Real Estate | <a href="sheriff_sale_details.php?ss_id=554"><strong>TOWD POINT MASTER FUNDING TRUST REO, BY U.S. BANK TRUST NATIONAL ASSOCIATION, AS TRUSTEE vs. ANIKA PITTS</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">80 Derek Lane, Laplace, Louisiana 70068<br/>
+                    Plaintiff Attorney: <strong>Rader Jackson </strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>November 20, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#73834   Real Estate | <a href="sheriff_sale_details.php?ss_id=555"><strong>MIDFIRST BANK vs. OPAL J. LENNIX</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">613 Hancock Drive, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>J. Donald Morgan </strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>October 16, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="Sold" hspace="17" src="grafx/aa_signs/sold.png"/></p></td>
+<td><h3>#73437   Real Estate | <a href="sheriff_sale_details.php?ss_id=556"><strong>BOKF, N.A., A NATIONAL BANKING ASSOCIATION D/B/A HOMEDIRECT MORTGAGE vs. ROYLAN ALONSO SILVA A/K/A ROYLAND ALONSO SILVA AND RISEL PEREZ GOMEZ BLANCO</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">2321 Virginian Colony Avenue, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Kristy Massey Finley</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>July 31, 2019</strong></p>
+<p>Status: <strong>Sold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="Sold" hspace="17" src="grafx/aa_signs/sold.png"/></p></td>
+<td><h3>#73453   Real Estate | <a href="sheriff_sale_details.php?ss_id=557"><strong>CALIBER HOME LOANS, INC. vs. TIFFANY GILLIAM, TIANA BROWN AND STEFANY BROWN</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">2213 COUNTRY CLUB DRIVE, LAPLACE,LOUISIANA <br/>
+                    Plaintiff Attorney: <strong>Jason R. Smith</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>August 7, 2019</strong></p>
+<p>Status: <strong>Sold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="Sold" hspace="17" src="grafx/aa_signs/sold.png"/></p></td>
+<td><h3>#73596   Real Estate | <a href="sheriff_sale_details.php?ss_id=559"><strong>J.P. MORGAN MORTGAGE ACQUISITION CORP. vs. LANCE RUMORE, (A/K/A LANCE M. RUMORE, LANCE MARIO RUMORE) AND CHANTEL RUMORE</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">1405 YORKTOWNE DRIVE, LAPLACE, LOUISIANA <br/>
+                    Plaintiff Attorney: <strong>Amy E. Schapansky</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>August 7, 2019</strong></p>
+<p>Status: <strong>Sold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="Sold" hspace="17" src="grafx/aa_signs/sold.png"/></p></td>
+<td><h3>#73607   Real Estate | <a href="sheriff_sale_details.php?ss_id=560"><strong>LAKEVIEW LOAN SERVICING, LLC vs. JOSE YOSBEL QUINTANA AGUERO A/K/A JOSE YOSBEL QUINTANA A/K/A JOSE Y. QUINTANA A/K/A JOSE QUINTANA A/K/A JOSE YOSBEL AGUERO A/K/A JOSE Y. AGUERO A/K/A JOSE AGUERO A/K/A JOSE QUINTANA AGUERO A/K/A JOSE Q. AGUERO</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">705 BELLE POINT BOULEVARD, LAPLACE, LOUISIANA <br/>
+                    Plaintiff Attorney: <strong>Corey J. Giroir</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>August 14, 2019</strong></p>
+<p>Status: <strong>Sold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#73454   Real Estate | <a href="sheriff_sale_details.php?ss_id=561"><strong>JPMORGAN CHASE BANK, NATIONAL ASSOCIATION vs. PETER ANDERSON, III</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">2916 Williamsburg Drive, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>J. Donald Morgan </strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>October 9, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#73839   Real Estate | <a href="sheriff_sale_details.php?ss_id=562"><strong>NEWREZ LLC F/K/A NEW PENN FINANCIAL, LLC D/B/A SHELLPOINT MORTGAGE SERVICING vs. VERNON E BATISTE, JR., (A/K/A VERNON E. BATISTE, VERNON EUGENE BATISTE, JR., VERNON EUGENE BATISTE) AND KIMBERLY HUNTER BATISTE, (A/K/A KIMBERLY BATISTE, KIMBERLY HUNTER)</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">13 PADRINO STREET, LAPLACE, LOUISIANA <br/>
+                    Plaintiff Attorney: <strong>Amy E. Schapansky</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>September 18, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#62393   Real Estate | <a href="sheriff_sale_details.php?ss_id=563"><strong>DEUTSCHE BANK NATIONAL TRUST COMPANY, AS TRUSTEE FOR NOVASTAR MORTGAGE FUNDING TRUST, SERIES 2006-6 NOVASTAR HOME EQUITY LOAN ASSET-BACKED CERTIFICATES, SERIES 2006-6 vs. EDWARD HENDERSON, III, (A/K/A EDWARD HENDERSON)</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">706 BELLE POINT BOULEVARD, LAPLACE, LOUISIANA<br/>
+                    Plaintiff Attorney: <strong>Penny M. Daigrepont</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>August 14, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="Sold" hspace="17" src="grafx/aa_signs/sold.png"/></p></td>
+<td><h3>#73405   Real Estate | <a href="sheriff_sale_details.php?ss_id=564"><strong>BANK OF AMERICA, N.A. vs. IRITA MORRISON NAVARRE A/K/A IRITA MORRISSON NAVARRE AND MICHAEL A. NAVARRE A/K/A MICHAEL ANTHONY NAVARRE</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">257 Brest Ct, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Jason R. Smith</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>August 28, 2019</strong></p>
+<p>Status: <strong>Sold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="Sold" hspace="17" src="grafx/aa_signs/sold.png"/></p></td>
+<td><h3>#73995   Real Estate | <a href="sheriff_sale_details.php?ss_id=565"><strong>HANCOCK WHITNEY BANK vs. R. L. DAWSON INVESTMENTS, LLC AND RODNEY L. DAWSON</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">2820 Williamsburg Drive, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Steven D. Oliver</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>October 23, 2019</strong></p>
+<p>Status: <strong>Sold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="For Sale" hspace="17" src="grafx/aa_signs/forsale.png"/></p></td>
+<td><h3>#73769   Real Estate | <a href="sheriff_sale_details.php?ss_id=566"><strong>WELLS FARGO BANK, N.A. vs. STEVEN A. THELEMANN AND WINTER STEADMAN THELEMANN</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">383 Highland Drive, Laplace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Candace M. Bowen</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>November 13, 2019</strong></p>
+<p>Status: <strong>For Sale</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#74028   Real Estate | <a href="sheriff_sale_details.php?ss_id=567"><strong>LOANCARE, LLC vs. PAMELA CARTER A/K/A PAMELA WASHINGTON AND JEROME CARTER</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">108 Inlet Court, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Corey J. Giroir</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>September 11, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#72323   Real Estate | <a href="sheriff_sale_details.php?ss_id=568"><strong>FREEDOM MORTGAGE CORPORATION vs. NORMAN WILLIAMS and SHARON CRIER WILLIAMS</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">109 Oxbow Drive, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Rader Jackson </strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>September 11, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#74067   Real Estate | <a href="sheriff_sale_details.php?ss_id=569"><strong>REGIONS BANK DBA REGIONS MORTGAGE vs. MICHAEL LEWIS, JR., (A/K/A MICHAEL LEWIS, MICHAEL L. LEWIS)</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">47 Ridgewood Drive, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Remy F. Symons</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>September 11, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="Sold" hspace="17" src="grafx/aa_signs/sold.png"/></p></td>
+<td><h3>#73772   Real Estate | <a href="sheriff_sale_details.php?ss_id=570"><strong>CARRINGTON MORTGAGE SERVICES, LLC vs. JOAN BRITTON, (A/K/A JOAN DAILEY, JOAN CARBO)</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">1532 Natchez Lane, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Amy E. Schapansky</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>September 11, 2019</strong></p>
+<p>Status: <strong>Sold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#74075   Real Estate | <a href="sheriff_sale_details.php?ss_id=571"><strong>U.S. BANK NATIONAL ASSOCIATION, AS TRUSTEE FOR STRUCTURED ASSET SECURITIES CORPORATION MORTGAGE PASS-THROUGH CERTIFICATES, SERIES 2007-BC2 vs. FERMAN JOHN VICTOR, JR., (A/K/A FERMAN JOHN VICTOR, FERMAN VICTOR, FERMAN VICTOR, JR.) AND NIKKI DIBARTOLO</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">1718 Creole Street, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Remy F. Symons</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>September 11, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="Sold" hspace="17" src="grafx/aa_signs/sold.png"/></p></td>
+<td><h3>#69057   Real Estate | <a href="sheriff_sale_details.php?ss_id=572"><strong>MARY ELIZABETH REINE TAMPLAIN vs. MACK E. REINE, JR.</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">1044 East Airline Highway, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Barry J. Landry</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>September 18, 2019</strong></p>
+<p>Status: <strong>Sold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#74134   Real Estate | <a href="sheriff_sale_details.php?ss_id=573"><strong>WELLS FARGO BANK, N.A. vs. DOYLE A. WAGUESPACK</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">261 West 1st Street, Reserve, Louisiana<br/>
+                    Plaintiff Attorney: <strong>Candace M. Bowen</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>September 25, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="Sold" hspace="17" src="grafx/aa_signs/sold.png"/></p></td>
+<td><h3>#74150   Movable | <a href="sheriff_sale_details.php?ss_id=574"><strong>JPMORGAN CHASE BANK, N.A. vs. RICHARD I. LACEY</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Movable" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top"><br/>
+                    Plaintiff Attorney: <strong>Chantel K. Adams</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>September 18, 2019</strong></p>
+<p>Status: <strong>Sold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="For Sale" hspace="17" src="grafx/aa_signs/forsale.png"/></p></td>
+<td><h3>#73188   Real Estate | <a href="sheriff_sale_details.php?ss_id=575"><strong>U.S. BANK NATIONAL ASSOCIATION, AS TRUSTEE FOR THE STRUCTURED ASSET SECURITIES CORPORATION MORTGAGE PASS-THROUGH CERTIFICATES, SERIES 2006-GEL1 vs. SYBIL F. JOHNSON A/K/A SYBIL JOHNSON A/K/A SYBIL MARIE FRANCIS A/K/A SYBIL M. FRANCIS A/K/A SYBIL FRANCIS AND THE UNITED STATES OF AMERICA</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">1815 Fairway Drive, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Corey J. Giroir</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>December 4, 2019</strong></p>
+<p>Status: <strong>For Sale</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#74195   Real Estate | <a href="sheriff_sale_details.php?ss_id=576"><strong>HSBC BANK USA, NATIONAL ASSOCIATION AS TRUSTEE FOR SG MORTGAGE SECURITIES TRUST 2007-NC1 ASSET BACKED CERTIFICATES, SERIES 2007-NC1 vs. TROY A. THOMPSON, (A/K/A TROY ANN THOMPSON, TROY ANN JOHNSON)</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">2808 English Colony Drive, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Penny M. Daigrepont</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>October 2, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="For Sale" hspace="17" src="grafx/aa_signs/forsale.png"/></p></td>
+<td><h3>#73974   Real Estate | <a href="sheriff_sale_details.php?ss_id=579"><strong>FIRST GUARANTY MORTGAGE CORPORATION vs. CARLYLE JASMINE AND DOMONIQUE ISAAC JASMINE A/K/A DOMONIQUE I. JASMINE A/K/A DOMONIQUE JASMINE</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">117 Georgine Drive, Vacherie, Louisiana<br/>
+                    Plaintiff Attorney: <strong>Corey J. Giroir</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>November 20, 2019</strong></p>
+<p>Status: <strong>For Sale</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#73792   Real Estate | <a href="sheriff_sale_details.php?ss_id=580"><strong>CITIMORTGAGE, INC. vs. ORMOND WARREN BANKS A/K/A ORMOND W. BANKS A/K/A ORMOND BANKS</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">2228 Williamsburg Drive, Laplace, Louisiana<br/>
+                    Plaintiff Attorney: <strong>Corey J. Giroir</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>October 9, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="Sold" hspace="17" src="grafx/aa_signs/sold.png"/></p></td>
+<td><h3>#74254   Movable | <a href="sheriff_sale_details.php?ss_id=581"><strong>VANDERBILT MORTGAGE AND FINANCE, INC. vs. KEITH B. FREDERICKS AND DANIELLE NADINE VAUGH</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Movable" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">273 South Little Hope Street, Garyville, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Mary Catherine Cali</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>October 2, 2019</strong></p>
+<p>Status: <strong>Sold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#74087   Real Estate | <a href="sheriff_sale_details.php?ss_id=582"><strong>JPMORGAN CHASE BANK, NATIONAL ASSOCIATION vs. KEITH WILSON AKA KEITH WILSON, SR.</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">228 Grove Park, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Allison N. Beasley</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>October 16, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#74205   Real Estate | <a href="sheriff_sale_details.php?ss_id=584"><strong>DEUTSCHE BANK NATIONAL TRUST COMPANY, AS TRUSTEE FOR MORGAN STANLEY ABS CAPITAL I INC. TRUST 2007-HE2 MORTGAGE PASS-THROUGH CERTIFICATES, SERIES 2007-HE2 vs. KAREN GALLAGHER BIAGAS A/K/A KAREN G. BIAGAS A/K/A KAREN BIAGAS AND WILLIAM P. BIAGAS A/K/A WILLIAM BIAGAS</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">106 Glenlakes Drive, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Corey J. Giroir</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>October 23, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="For Sale" hspace="17" src="grafx/aa_signs/forsale.png"/></p></td>
+<td><h3>#74302   Real Estate | <a href="sheriff_sale_details.php?ss_id=585"><strong>REVERSE MORTGAGE SOLUTIONS, INC. vs. ESTATE OF LINVEL RALSTON HOLLAND</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">13 Padrino Street, LaPlace, Louisiana<br/>
+                    Plaintiff Attorney: <strong>Rader Jackson</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>October 30, 2019</strong></p>
+<p>Status: <strong>For Sale</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#74204   Real Estate | <a href="sheriff_sale_details.php?ss_id=586"><strong>QUICKEN LOANS INC. vs. LOUELLA TOLLIVER</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">2712 Williamsburg Drive, LaPlace, Louisiana<br/>
+                    Plaintiff Attorney: <strong>Corey J. Giroir</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>October 30, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="For Sale" hspace="17" src="grafx/aa_signs/forsale.png"/></p></td>
+<td><h3>#74297   Real Estate | <a href="sheriff_sale_details.php?ss_id=588"><strong>CITIGROUP MORTGAGE LOAN TRUST INC. ASSET-BACKED PASS-THROUGH CERTIFICATES, SERIES 2007-AMC2, U.S. BANK NATIONAL ASSOCIATION, AS TRUSTEE vs. JUDY ANN CATHERINE DILBERT A/K/A JUDY ANN DILBERT A/K/A JUDY A. DILBERT A/K/A JUDY DILBERT A/K/A JUDY CATHERINE DILBERT A/K/A JUDY C. DILBERT</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">1316 YORKETOWNE DRIVE, LAPLACE, LOUISIANA<br/>
+                    Plaintiff Attorney: <strong>Corey J. Giroir</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>November 6, 2019</strong></p>
+<p>Status: <strong>For Sale</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="For Sale" hspace="17" src="grafx/aa_signs/forsale.png"/></p></td>
+<td><h3>#74361   Real Estate | <a href="sheriff_sale_details.php?ss_id=589"><strong>U.S. BANK NATIONAL ASSOCIATION vs. DAVID L. HALL, JR. A/K/A DAVID HALL, JR. AND LEIA LEBOEUF HALL A/K/A LEIA L. HALL A/K/A LEIA HALL</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">318 East 12th Street, Reserve, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Harold E. Cradic, III</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>November 6, 2019</strong></p>
+<p>Status: <strong>For Sale</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#74317   Real Estate | <a href="sheriff_sale_details.php?ss_id=590"><strong>WILMINGTON SAVINGS FUND SOCIETY, FSB, D/B/A CHRISTIANA TRUST, NOT INDIVIDUALLY BUT AS TRUSTEE FOR PRETIUM MORTGAGE ACQUISITION TRUST vs. DORIS LEE RIDEAUX AND LEONARD JAMES RIDEAUX</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">2716 Williamsburg Drive, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Jason R. Smith</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>November 6, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="For Sale" hspace="17" src="grafx/aa_signs/forsale.png"/></p></td>
+<td><h3>#70705   Real Estate | <a href="sheriff_sale_details.php?ss_id=591"><strong>THE BANK OF NEW YORK MELLON FKA THE BANK OF NEW YORK, AS TRUSTEE FOR THE CERTIFICATEHOLDERS OF THE CWABS, INC., ASSET-BACKED CERTIFICATES, SERIES 2006-22 vs. SIMMONE WILLIAMS A/K/A SIMMONE WILLIAMS WILSONNOT MALONE</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">413 Corrine Court, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Candace M. Bowen</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>November 6, 2019</strong></p>
+<p>Status: <strong>For Sale</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="For Sale" hspace="17" src="grafx/aa_signs/forsale.png"/></p></td>
+<td><h3>#72444   Real Estate | <a href="sheriff_sale_details.php?ss_id=592"><strong>JPMORGAN CHASE BANK, NATIONAL ASSOCIATION vs. LEVAR D. GREEN</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">2223 Laurel Valley Drive, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Allison N. Beasley</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>November 13, 2019</strong></p>
+<p>Status: <strong>For Sale</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="For Sale" hspace="17" src="grafx/aa_signs/forsale.png"/></p></td>
+<td><h3>#74267   Real Estate | <a href="sheriff_sale_details.php?ss_id=593"><strong>JPMORGAN CHASE BANK, NATIONAL ASSOCIATION vs. TERRI HOLMES WELLS A/K/A TERRI LYNETTE HOLMES WIFE OF/AND CHARLES WELLS A/K/A CHARLES E. WELLS</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">101 Cottage Grove, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Fred Daigle</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>November 13, 2019</strong></p>
+<p>Status: <strong>For Sale</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="For Sale" hspace="17" src="grafx/aa_signs/forsale.png"/></p></td>
+<td><h3>#74000   Real Estate | <a href="sheriff_sale_details.php?ss_id=594"><strong>VANDERBILT MORTGAGE AND FINANCE, INC. vs. RON A. FRANKLIN AND ASHLEY E. FRANKLIN</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">154 Oubre Court, Edgard, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Karen E. Trevathan</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>November 13, 2019</strong></p>
+<p>Status: <strong>For Sale</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="For Sale" hspace="17" src="grafx/aa_signs/forsale.png"/></p></td>
+<td><h3>#73878   Real Estate | <a href="sheriff_sale_details.php?ss_id=595"><strong>NATIONSTAR MORTGAGE LLC D/B/A MR. COOPER vs. A.C. WHITE AND JOYCE JONES WHITE A/K/A JOYCE JONES SMITH WHITE</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">2092 GOLFVIEW DRIVE, LAPLACE, LOUISIANA  <br/>
+                    Plaintiff Attorney: <strong>Kristy Massey Finley</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>November 20, 2019</strong></p>
+<p>Status: <strong>For Sale</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="For Sale" hspace="17" src="grafx/aa_signs/forsale.png"/></p></td>
+<td><h3>#73216   Real Estate | <a href="sheriff_sale_details.php?ss_id=596"><strong>THE BANK OF NEW YORK MELLON FKA THE BANK OF NEW YORK, AS TRUSTEE FOR THE CWABS INC., ASSET- BACKED CERTIFICATES, SERIES 2002-3 vs. OLGA SORAPURU BOUDOIN, (A/K/A OLGA SORAPURU, OLGA BOUDOIN) AND THE OPENED SUCCESSION OF LYNN BOUDOIN, (A/K/A LYN BOUDOIN) AND NICHOLAS BOUDOIN AND THELMA BOUDOIN AND MICHAEL BOUDOIN AND WAYNE BOUDOIN, (A/K/A WAYNE PATRICK BOUDOIN, SR., WAYNE PATRICK </strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">873 HIGHWAY 18, EDGARD, LOUISIANA <br/>
+                    Plaintiff Attorney: <strong>Penny M. Daigrepont</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>November 20, 2019</strong></p>
+<p>Status: <strong>For Sale</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="For Sale" hspace="17" src="grafx/aa_signs/forsale.png"/></p></td>
+<td><h3>#74475   Real Estate | <a href="sheriff_sale_details.php?ss_id=597"><strong>WELLS FARGO BANK, NATIONAL ASSOCIATION, AS TRUSTEE FOR OPTION ONE MORTGAGE LOAN TRUST 2003-5 ASSET-BACKED CERTIFICATES, SERIES 2003-5 vs. IRMA CARTER EDWARDS A/K/A IRMA C. EDWARDS A/K/A IRMA EDWARDS</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">2720 Williamsburg Drive, Laplace, LA<br/>
+                    Plaintiff Attorney: <strong>Corey J. Giroir</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>December 4, 2019</strong></p>
+<p>Status: <strong>For Sale</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="For Sale" hspace="17" src="grafx/aa_signs/forsale.png"/></p></td>
+<td><h3>#73843   Real Estate | <a href="sheriff_sale_details.php?ss_id=598"><strong>NATIONSTAR MORTGAGE LLC D/B/A MR. COOPER vs. HARDELL MACK AND LESLIE FRANCOIS MACK, (A/K/A LESLIE MACK, LESLIE FRANCOIS)</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">245 Somerset Street, LaPlace, Louisiana <br/>
+                    Plaintiff Attorney: <strong>Amy E. Schapansky</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>December 4, 2019</strong></p>
+<p>Status: <strong>For Sale</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="For Sale" hspace="17" src="grafx/aa_signs/forsale.png"/></p></td>
+<td><h3>#73990   Real Estate | <a href="sheriff_sale_details.php?ss_id=599"><strong>DITECH FINANCIAL LLC vs. THE SUCCESSION OF ANDRE CHRISTOPHER GUNZBURG A/K/A ANDRE CHRISTOPHER GUNZBURG A/K/A ANDRE C. GUNZBURG A/K/A ANDRE GUNZBURG</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">660 FOXWOOD LANE, LAPLACE, LOUISIANA <br/>
+                    Plaintiff Attorney: <strong>Corey J. Giroir</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>December 4, 2019</strong></p>
+<p>Status: <strong>For Sale</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="On Hold" hspace="17" src="grafx/aa_signs/stop.png"/></p></td>
+<td><h3>#74423   Real Estate | <a href="sheriff_sale_details.php?ss_id=600"><strong>WELLS FARGO BANK, N.A. vs. PAUL M. MONISTERE A/K/A PAUL MONISTERE AND LINDA BROCK MONISTERE A/K/A LINDA B. MONISTERE A/K/A LINDA MONISTERE</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">352 ELMWOOD DRIVE, LAPLACE, LOUISIANA  <br/>
+                    Plaintiff Attorney: <strong>Corey J. Giroir</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>December 4, 2019</strong></p>
+<p>Status: <strong>On Hold</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="For Sale" hspace="17" src="grafx/aa_signs/forsale.png"/></p></td>
+<td><h3>#74379   Real Estate | <a href="sheriff_sale_details.php?ss_id=601"><strong>WELLS FARGO BANK, N.A., AS TRUSTEE FOR CARRINGTON MORTGAGE LOAN TRUST, SERIES 2006-RFC1, ASSET-BACKED PASS-THROUGH CERTIFICATES vs. BRIAN A. CLEVELAND, (A/K/A BRIAN ANTHONY CLEVELAND, BRIAN CLEVELAND) AND PATRICIA LODWICK CLEVELAND, (A/K/A PATRICIA LODWICK, PATRICIA CLEVELAND, PATRICIA L. CLEVELAND)</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">2055 LAFITTE DRIVE, LAPLACE, LOUISIANA <br/>
+                    Plaintiff Attorney: <strong>Penny M. Daigrepont</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>December 4, 2019</strong></p>
+<p>Status: <strong>For Sale</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="For Sale" hspace="17" src="grafx/aa_signs/forsale.png"/></p></td>
+<td><h3>#71681   Real Estate | <a href="sheriff_sale_details.php?ss_id=602"><strong>GEORGE KELLETT &amp; SONS, INC. vs. KIM GALLAGHER PHILIP AND MELVILLE I. PHILIP, SR.</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">101 Warwick Street, LaPlace, Louisiana<br/>
+                    Plaintiff Attorney: <strong>Mark C. Landry</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>December 4, 2019</strong></p>
+<p>Status: <strong>For Sale</strong></p></td>
+</tr>
+</table>
+</div>
+<div class="saleitems">
+<table border="0" cellpadding="4" width="100%">
+<tr>
+<td colspan="3"><table border="0">
+<tr>
+<td><p><img align="left" alt="For Sale" hspace="17" src="grafx/aa_signs/forsale.png"/></p></td>
+<td><h3>#74440   Real Estate | <a href="sheriff_sale_details.php?ss_id=603"><strong>UNITED STATES OF AMERICA, RURAL DEVELOPMENT, UNITED STATES DEPARTMENT OF AGRICULTURE vs. BENNETTO R. HALL</strong></a></h3></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150"><img alt="Real Estate" src="../pics/sheriffsale/default.jpg" width="80%"/></td>
+<td valign="top">582 GREENWOOD DRIVE, LAPLACE, LOUISIANA <br/>
+                    Plaintiff Attorney: <strong>William D. O'Regan, III</strong></td>
+<td align="left" valign="top" width="200"><p>Sale Date: <strong>December 4, 2019</strong></p>
+<p>Status: <strong>For Sale</strong></p></td>
+</tr>
+</table>
+</div>
+</div>
+<!-- Content Ends Here-->
+</div>
+</div>
+<br class="clearfloat"/>
+</div>
+<div id="subbar"></div>
+</div>
+<div id="footer"><p>Updated:   October 27, 2019 |  <a href="index.php">Home</a> |  <a href="directory.php?id=4">Division Directory</a> | <a href="directory.php?id=4">Contact</a> | <a href="mailto:webmaster@stjohnsheriff.org">Webmaster</a><br/>
+  © 2018 St. John <a href="FTP://66.97.63.131">Parish</a> Sheriff's <a href="FTP://120.111.20.42">Office</a> | <a href="http://www.outlookdesign.com/">Site by Outlook Design</a> | <a href="http://stjohnsheriff.org/forms/wp-admin">fms</a> | <a href="login.php">adm</a> </p></div>
+</body>
+</html>
+

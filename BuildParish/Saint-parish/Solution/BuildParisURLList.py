@@ -59,7 +59,7 @@ def ScrapeForeHtml(state):
 	for table_row in soup.select(".saleitems"):
 		table_cells = table_row.findAll('td')
 		if len(table_cells) > 0:
-			line = str(table_cells) + "\n"
+			line = str(table_cells)
 			strLine	= line.split("</td>")
 			strLlst = strLine[1].split('<strong>')
 		# Retrieve bank's name
@@ -71,16 +71,18 @@ def ScrapeForeHtml(state):
 			# Retrieve Address
 			address = strLine[6].split('<td valign="top">', 1)[1]
 			address = address.split('<br/>')
+			address = address[0].rstrip()
 			# Retrieve Saledate
 			saledate = strLine[7].split('strong>')
 			saledate = saledate[1].split('<', 1)[0]
-			saledate =re.sub(r'\W+', ',', saledate)
+			saledate = re.sub(r'\W+', ' ', saledate)
+			saledate = "'" + saledate + "'"
 			# Retrieve Satatus
 			Status = strLine[7].split('<strong>')
 			Status = Status[2].split('<', 1)[0]
 
 		# Output to cvsth file to build mailer
-			StrRecord = Status + ',' +  saledate + ',' + address[0] + ',' + owner + ',' + bank + '\n'
+			StrRecord = Status + ',' +  saledate + ',' + address + ',' + owner + ',' + bank
 			print(i,':', StrRecord)
 			# Add client record to file
 			outfile.write(StrRecord)

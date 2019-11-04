@@ -6,10 +6,28 @@ import string
 import re
 import shutil
 
+# Convert month to number
+def month_number(string):
+	m = {'jan': 1,'feb': 2,'mar': 3,'apr':4,'may':5,'jun':6,
+		 'jul':7,'aug':8,'sep':9,'oct':10,'nov':11,'dec':12
+		 }
+	s = string.strip()[:3].lower()
+
+	try:
+		out = m[s]
+		return out
+	except:
+		raise ValueError('Not a month')
+
+
 from bs4 import BeautifulSoup
 from lxml import html
 
 def ScrapeForeHtml(state):
+	# Build csv file foreclosure mailer
+	filename = './output.csv'
+	outfile = open(filename, 'a+')
+
 
 	URLforeclosure = 'http://stjohnsheriff.org/sheriff_sale.php'
 
@@ -28,8 +46,12 @@ def ScrapeForeHtml(state):
 
 			saledate = strLine[7].split('strong>')
 			saledate = saledate[1].split('<', 1)[0]
+			saledate =re.sub(r'\W+', ',', saledate)
+			saledatelist = saledate.split(',')
+			saledate = str(month_number(saledatelist[0])) + '/' + str(saledatelist[1]) + '/' + str(saledatelist[2])
 
-			print(i,': ',saledate)
+			print(i,':',saledate)
+			outfile.write(saledate + '\n')
 
 		i = i + 1
 	return i
