@@ -1,0 +1,10 @@
+June|5th
+Action|http://www.auction.com|Foreclosure listing site|/fc-final-June-01.csv|518
+ForeclosureBidslist|https://www.foreclosurebidslist.com/|Foreclosure listing site|/fc-final-June-02.csv|713
+McCalla & Raymer, LLP|http://www.foreclosurehotline.net/|Law Firm|/fc-final-June-03.csv|329
+RealtyBid|http://www.realtybid.com|Foreclosure listing site|/fc-final-June-04.csv|274
+Brock & Scott,LLP|https://www.brockandscott.com/foreclosure-sales/?_sft_foreclosure_state=ga|Law Firm|/fc-final-June-05.csv|121
+Adridgepite|http://saleday.aldridgepite.com/Listings|Law Firm|/fc-final-June-06.csv|0
+Rubin & Lublin,LLP|http://rubinlublin.com/property-listing/georgia-property-listings/|Law Firm|/fc-final-June-07.csv|309
+Shapiro & Gasting|http://shapiroandhasty.com/sales-report/#|Law Firm|/fc-final-June-08.csv|98
+936
