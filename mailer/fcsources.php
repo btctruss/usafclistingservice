@@ -27,7 +27,7 @@
                 </tr>   
                 <tr  id="nav_tr" >
                      <td width='20%' height='5' align="center"> 
-                         <img src="../images/CreditCard.gif" width="40px" height="40px" alt="AddCreditor"/>
+                         <img src="../images/tools.png" width="40px" height="40px" alt="AddCreditor"/>
                      </td>
                      <td width='80%' id="nav_td" > 
                          &nbsp;&nbsp;Foreclosure Mailer
@@ -113,13 +113,13 @@
                                 $url       = $list[1];
                                 $type      = $list[2];
                                 $buildfile = $list[3];
-                                $records   = $list[4];
+                                $records   = intval($list[4]);
                             } else {
                                 $duplicates = $list[0];
                                 $total_dupls = $total - $duplicates;
                                 break;
                             }                 
-                            $total = $total + $list[4];
+                            $total = $total + $records;
                             $i = $i + 1;
                 ?>
                     <tr>
