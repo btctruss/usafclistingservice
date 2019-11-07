@@ -27,7 +27,7 @@
                 </tr>   
                 <tr  id="nav_tr" >
                      <td width='20%' height='5' align="center"> 
-                         <img src="../images/tools.png" width="40px" height="40px" alt="AddCreditor"/>
+                         <img src="../images/tools.png" width="40px" height="40px" alt="Tools"/>
                      </td>
                      <td width='80%' id="nav_td" > 
                          &nbsp;&nbsp;Foreclosure Mailer
